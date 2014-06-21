@@ -1,0 +1,14 @@
+{
+    "applications": {
+        "RescueHelper": {
+            "applicationId": "pAwMknVW1OcjKXYK7Lpj5Jibigfzio8kb2CdBScO", 
+            "masterKey": "jZO1EcZ3BdT7W49maVVGiIxRBKEmcfTd9NxUEvbU"
+        }, 
+        "_default": {
+            "link": "RescueHelper"
+        }
+    }, 
+    "global": {
+        "parseVersion": "1.2.18"
+    }
+}
