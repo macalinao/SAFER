@@ -1,0 +1,41 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context=".DispatcherActivity"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/welcome"
+        android:textColor="@color/blue"
+        android:text="Welcome!"
+        android:layout_gravity="right"
+        android:gravity="right"
+        android:textSize="25dp"/>
+
+   <ListView
+       android:layout_width="wrap_content"
+       android:layout_height="300dp"
+       android:id="@+id/tasksList" />
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="20dp"
+        android:id="@+id/newTaskText"/>
+    <Spinner
+        android:layout_width="300dp"
+        android:layout_height="30dp"
+        android:id="@+id/prioritySpinner"/>
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:id="@+id/newTaskButton"
+        android:text="Add New Task"
+        android:textSize="25dp"/>
+</LinearLayout>
+<!-- From: file:/Users/NaveenT/Documents/MyApplication/app/src/main/res/layout/activity_dispatcher.xml -->

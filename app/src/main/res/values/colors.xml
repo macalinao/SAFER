@@ -1,0 +1,21 @@
+<resources>
+
+    <color name="black_overlay">#66000000</color>
+    <color name="action_bar">#FAFDFE</color>
+    <color name="profile_background">#EEF3F5</color>
+    <color name="username_color">#73C3CF</color>
+    <color name="transparent">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="grey">#E5E5E5</color>
+    <color name="lightblue">#83C4CD</color>
+    <color name="white">#FFFFFF</color>
+    <color name="ash">#CED7D8</color>
+    <color name="blue">#89C8D1</color>
+    <color name="list_background">#D96262</color>
+    <color name="list_background_pressed">#AAC8FA</color>
+    <color name="red">#D96262</color>
+    <color name="green">#84C99E</color>
+    <color name="dark">#FF222222</color>
+    <color name="light">#FFEEEEEE</color>
+    <color name="graydark">#838385</color>
+</resources>

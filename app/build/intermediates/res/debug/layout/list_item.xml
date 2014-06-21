@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/task_list_item"
+    android:layout_width="fill_parent"
+    android:layout_height="60dp"
+    android:paddingTop="10dp"
+    android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/taskNo"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:text="1"
+        android:textColor="@color/black"
+        android:padding="5dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:textColor="@color/black"
+        android:id="@+id/taskName"
+        android:text="Clear Rooms"
+        android:maxLength="60"
+        android:maxLines="1"/>
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:id="@+id/taskButton"
+        android:layout_marginLeft="30dp"
+        android:textColor="@color/white"/>
+</LinearLayout><!-- From: file:/Users/NaveenT/Documents/MyApplication/app/src/main/res/layout/list_item.xml -->
